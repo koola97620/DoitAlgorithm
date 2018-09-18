@@ -5,8 +5,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
-public class Homework1 {
-
+public class Homework1  {
 
     public static int compareTo(char[] sa, char[] sb)
     {
@@ -48,8 +47,6 @@ public class Homework1 {
 
         }
         return result;
-
-
     }
     // 사전순으로 정렬
     public static void sort(String str1, String str2) {
@@ -70,8 +67,6 @@ public class Homework1 {
         }
 
     }
-
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         char[] sa = scanner.next().toCharArray();
@@ -85,10 +80,8 @@ public class Homework1 {
             System.out.println(0);
         }
 
-
         String str1 = new String(sa);
         String str2 = new String(sb);
-
 
         sort(str1,str2);
 
