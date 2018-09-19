@@ -53,7 +53,7 @@ public class Question06_01 {
             System.out.println("대상이 없습니다.");
         } else {
             System.out.println("x[" + idx + "]에 있습니다.");
-            System.out.println("찾은 데이터 :  " + x[idx]);
+            System.out.println();
         }
 
     }
