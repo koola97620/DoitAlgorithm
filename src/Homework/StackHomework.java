@@ -6,6 +6,17 @@ package Homework;
 progresses  speeds      return
 [93,30,55]  [1,30,5]    [2,1]
 
+
+예제 1)
+progresses : [40, 93, 30, 55, 60, 65]
+speeds : [60, 1, 30, 5 , 10, 7]
+return : [1,2,3]
+
+예제 2)
+progresses : [93, 30, 55, 60, 40, 65]
+speeds : [1, 30, 5 , 10, 60, 7]
+return : [2,4]
+
  */
 
 import java.util.ArrayList;
@@ -61,8 +72,8 @@ public class StackHomework {
 //        double a = (double)70/(double)30;
 //        System.out.println(Math.ceil(a));
 
-        int[] progresses = {99,30,55};
-        int[] speeds = {1,30,5};
+        int[] progresses = {40,93,30,55,60,65};
+        int[] speeds = {60,1,30,5,10,7};   // 답 1,2,3
 
         int[] result = solution(progresses,speeds);
 
