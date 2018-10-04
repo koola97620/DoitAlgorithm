@@ -68,10 +68,15 @@ public class Question01 {
         List<String> answerList = new ArrayList<String>();
 
 
+
+
         for(int i=0; i < record.length ; i++) {
 
             String[] line = record[i].split(" ");
 
+            // line[0] enter , leave, change
+            // line[1] id
+            // line[2] nick
             if(line[0].equals("Enter") && !map.containsKey(line[1]) ) {
                 map.put(line[1],line[2]);
                 //answer[i] = line[2] + "님이 들어왔습니다.";
@@ -95,6 +100,8 @@ public class Question01 {
             }
 
         }
+
+        System.out.println(map);
 
         Set keys = map.keySet();
 
