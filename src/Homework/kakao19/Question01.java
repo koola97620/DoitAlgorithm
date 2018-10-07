@@ -67,9 +67,6 @@ public class Question01 {
         Map<String, String> map = new HashMap<String, String>();
         List<String> answerList = new ArrayList<String>();
 
-
-
-
         for(int i=0; i < record.length ; i++) {
 
             String[] line = record[i].split(" ");

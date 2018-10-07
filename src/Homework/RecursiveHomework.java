@@ -22,10 +22,13 @@ public class RecursiveHomework {
     public static int recur(int num) {
         if(num==1) {
             return 1;
+
         }else if(num==2) {
             return 2;
+
         }else if(num==3) {
             return 4;
+
         }else {
             return recur(num-1) + recur(num-2) + recur(num-3);
         }
