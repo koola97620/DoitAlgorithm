@@ -6,8 +6,7 @@ public class Question0901 {
     static int count =0;
 
     static void shellSort(int[] a , int n) {
-        for(int h = n/2 ; h >0 ; h /=2) {
-            System.out.println(h);
+        for(int h = n/2 ; h >0 ; h /=2)
             for(int i=h ; i < n ; i++) {
                 int j;
                 int tmp = a[i];
@@ -17,7 +16,7 @@ public class Question0901 {
                 }
                 a[j+h] = tmp;
             } // end i
-        }// end h
+
     } // end sort()
 
 
