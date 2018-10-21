@@ -10,8 +10,8 @@ public class HeapSort {
 
     static void downHeap(int[] a, int left, int right) {
         int temp = a[left];
-        int child=0;
-        int parent=0;
+        int child;
+        int parent;
 
         for(parent = left ; parent < (right+1)/2 ; parent = child) {
             int cl = parent * 2 +1;
